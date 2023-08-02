@@ -1,0 +1,47 @@
+This GitHub repository accompanies the paper:
+
+The evolution of Ericaceae flowers and their pollination syndromes at a global scale
+By: Ricardo Kriebel, Jeffrey P. Rose, Paul Bastide, Diana Jolles, Marcelo Reginato, and Kenneth J. Sytsma.
+Published in American Journal of Botany. 2023.
+
+This repository contains the data and code necessary to replicate the analyses.
+
+###################
+corolla_outlines.zip
+anther_outlines.zip
+
+contain outlines for the corolla and anther shapes, respectively.
+
+corolla_images_groups.csv
+anther_images_groups.csv
+
+group images by their unique identifiers into species.
+
+###################
+linear_measurements.xls
+
+contains all linear measurements.
+
+
+###################
+mean_by_species_all_vars.csv
+
+contains the mean for each species across all shape an linear measures and
+
+references.xls
+
+contains bibliographic information on the source publication for all measures.
+
+###################
+pollinator_data.xlsx
+
+contains pollinator scoring and bibliographic information for all species.
+
+###################
+ericacaeae_flower_evolution_3.Rmd
+
+is an R markdown file containing the code to reproduce all analyses.
+
+ericacaeae_flower_evolution_3.pdf
+
+is the raw PDF output from this code.
